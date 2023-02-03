@@ -1,0 +1,8 @@
+{
+  "myCertificates": "My Certificates",
+  "table":{
+    "name": "Name",
+    "id": "Id",
+    "date": "Date"
+  }
+}

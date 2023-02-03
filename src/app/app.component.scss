@@ -1,0 +1,12 @@
+.main-container {
+  margin: 0;
+  padding: 0.5rem;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #efefef;
+  &__iframe{
+    margin-top: 4.5rem;
+    height: 92vh;
+  }
+
+}
