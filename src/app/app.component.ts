@@ -11,7 +11,7 @@ import { DocPathService } from './services/doc-path.service';
 })
 export class AppComponent implements OnInit, OnDestroy {
   private subscription = new Subscription();
-  private ip = 'http://192.168.0.13:8080/';
+  private ip = '//localhost:8080/';
   private languageSelected: string = localStorage.getItem('nebulaLanguage') || 'en';
   public iframeUrl: SafeResourceUrl | null = null;
 
